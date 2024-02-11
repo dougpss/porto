@@ -1,0 +1,13 @@
+---
+
+- hosts: all
+  become: true
+  tasks: 
+
+  - name: Add the user 'doug' with a specific uid and a primary group of 'users'
+    ansible.builtin.user:
+      name: doug
+      comment: Doug Silva
+      uid: 1040
+      shell: /bin/bash
+      group: users

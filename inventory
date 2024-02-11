@@ -1,4 +1,4 @@
-debian1
-debian2
-centos8
-centos82
+debian1 apache_package=apache2 php_package=libapache2-mod-php
+debian2 apache_package=apache2 php_package=libapache2-mod-php
+centos8 apache_package=httpd php_package=php
+centos82 apache_package=httpd php_package=php
